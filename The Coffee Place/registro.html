@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorbo Único</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css">
+    <link rel="preload" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+
+    <main class="contenedor">
+        <aside class="aside">
+            <div class="logo">
+                <img class="logo__imagen" src="img/logo.jpeg" alt="Logo">
+            </div>
+                <h1 class="aside__titulo"><span class="aside__titulo--delgado">Sorbo</span><b>Único</b></h1>
+        </aside>
+
+        <section class="principal">
+            <div class="principal__contenido">
+
+                <form class="formulario">
+                    <div class="campo">
+                        <label class="campo__label" for="nombre">Nombre:</label>
+                        <input class="campo__field" type="text" placeholder="Tu nombre." id="nombre">
+                    </div>
+
+                    <div class="campo">
+                        <label class="campo__label" for="email">Email:</label>
+                        <input class="campo__field" type="email" id="email" placeholder="Tu email.">
+                    </div>
+
+                    <div class="campo">
+                        <label class="campo__label" for="contrasena">Contraseña:</label>
+                        <input class="campo__field" type="password" id="contrasena" placeholder="Tu contraseña.">
+                    </div>
+
+                    <div class="campo">
+                        <input class="campo__boton" type="button" value="Registrarse">
+                    </div>
+                    
+                    <p class="formulario__texto">¿Ya tienes cuenta? <a href="index.html">Inicia sesión</a></p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
