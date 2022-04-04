@@ -75,72 +75,56 @@ h1, h2, h3 {
 }
 
 
-.nav-link:nth-child(2) {
+.nav-link:nth-child(1) {
     background-color: rgb(255 255 255 / 50% );
     padding: .5rem;
     border-radius: 1rem;
     font-weight: bold;
 }
 
-.barra-busqueda {
-    display: flex;
-    justify-content: center;
-    margin-top: -6rem;
-}
-
-.busqueda-input {
-    border-style: none;
-    border-radius: 1rem;
-    padding: 1rem;
-    width: 150rem;
-    background-color: rgb(255 255 255 / 50%);
-}
-
-
-.busqueda-input:hover {
-    background-color: rgb(255 255 255 / 100%);
-}
-
-.busqueda-button {
-    border-style: none;
-    border-radius: 1rem;
-    background-color: transparent;
-    margin-left: -5rem;
-    padding: .5rem;
-    cursor: pointer;
-}
-
-.productos {
+.contenido {
     margin: 0 auto;
-    margin-top: 2rem;
-    padding: 2rem 0 2rem 0;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 100rem;
-    gap: 3rem;
 }
 
-.producto {
+.perfil {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: center;  
-    background-color: rgb(255 255 255 / 50%);
+    margin-top: -20rem;
+}
+
+.usuario-img {
+    background-color: gray;
+    width: 25rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+    height: 45rem;
+}
+
+.productos-favoritos {
+    background-color: rgb(255 255 255 / 80% );
     border-radius: 1rem;
     padding: 2rem;
+    text-align: center;
 }
 
-.producto-nombre {
-    padding: 0 0 2rem 0;
-}
-
-.producto-img{
-    margin-bottom: 2rem;
-    width: 25rem;
+.mi-informacion {
+    background-color: rgb(255 255 255 / 80% );
     border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
 }
 
 .footer {
+    position: absolute;
     bottom: 0;
     text-align: center;
     display: flex;
