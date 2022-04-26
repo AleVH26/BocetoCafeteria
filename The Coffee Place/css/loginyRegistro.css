@@ -51,7 +51,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: inset -10px 0px 10px 0px rgba(50,50,50,0.75);
+    box-shadow: 0px 10px 10px -5px rgba(71,71,71,0.6);
 }
 
 .logo {
@@ -67,7 +67,7 @@ h2 {
     width: 30rem;
     height: 30rem;
     margin: 0 auto;
-    box-shadow: 0px 10px 25px -5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 10px 10px -5px rgba(71,71,71,0.6);
 
 }
 
@@ -130,7 +130,7 @@ h2 {
     text-align: center;
     color: #000;
     width: 100%;
-    box-shadow: 0px 10px 15px -5px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 10px 10px -5px rgba(71,71,71,0.6);
 }
 
 .campo__boton {

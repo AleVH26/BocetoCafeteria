@@ -9,8 +9,6 @@
     <script type="text/javascript" id="rda-calendar" src="https://www.reservasporinternet.com/webmaster/widget/calendar/hotel-business/hotel-business-calendar.js" data-company="XXXX" data-target="calendar" data-language="es" data-type="inline" data-color="345678"></script> 
     <script src="https://kit.fontawesome.com/485d2f57e5.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="preload" href="css/reservas.css">
-    <link rel="preload" href="css/normalize.css">
     <link rel="stylesheet" href="css/reservas.css">
     <link rel="stylesheet" href="css/normalize.css">
 </head>
@@ -19,7 +17,7 @@
         <div class="contenedor"> 
 
             <div class="barra-nav contenedor">
-                <a class="logo" href="#"><h1 class="logo_nombre no-margin centrar-texto"><span class="logo_nombre_light">Sorbo<b>Único</b></span></h1></a>
+                <a class="logo" href="principal.html"><h1 class="logo_nombre no-margin centrar-texto"><span class="logo_nombre_light">Sorbo<b>Único</b></span></h1></a>
                 <nav class="nav">
                     <a class="nav-link" href="perfil.html">Mi perfil</a>
                     <a class="nav-link" href="menu.html">Menú</a>
@@ -30,6 +28,62 @@
             </div>
         </div>         
     </header>
+
+    <main class="contenedor contenido">
+
+        <div class="reservas">
+            <div class="mesas">
+                <fieldset class="mesas-radio">
+
+                    <div class="mesa1">
+                        <label for="mesa1">Mesa 1</label>
+                        <input type="radio" name="mesa" value="Mesa #1" id="mesa1">
+                    </div>
+
+                    <div class="mesa2">
+                        <label for="mesa2">Mesa 2</label>
+                        <input type="radio" name="mesa" id="mesa2">
+                    </div>
+
+                    <div class="mesa3">
+                        <label for="mesa3">Mesa 3</label>
+                        <input type="radio" name="mesa" value="Mesa #1" id="mesa3">
+                    </div>
+
+                    <div class="mesa4">
+                        <label for="mesa4">Mesa 4</label>
+                        <input type="radio" name="mesa" value="Mesa #1" id="mesa4">
+                    </div>
+
+                    <div class="mesa5">
+                        <label for="mesa5">Mesa 5</label>
+                        <input type="radio" name="mesa" value="Mesa #1" id="mesa5">
+                    </div>
+
+                    <div class="mesa6">
+                        <label for="mesa6">Mesa 6</label>
+                        <input type="radio" name="mesa" value="Mesa #1" id="mesa6">
+                    </div>                   
+                </fieldset>
+            </div>
+
+            <div class="horarios">
+                <fieldset class="horarios-inputs">
+                    <div class="fecha">
+                        <label for="fecha">Fecha</label>
+                        <input type="date" id="fecha">
+                    </div>
+                    <div class="hora">
+                        <label for="hora">Hora</label>
+                        <input type="time" name="hora" id="hora">
+                    </div>
+                </fieldset>
+                <button class="reserva-btn">Reservar</button>
+            </div>
+        </div>
+        
+        
+    </main>
 
     <footer class="footer">
         <div class="redes">
